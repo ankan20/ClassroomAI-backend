@@ -210,3 +210,6 @@ def process_video(video_path: str, registered_faces_folder: str, face_model_path
         "duration": video_duration,
         "behavior_data": behavior_durations
     }
+
+
+

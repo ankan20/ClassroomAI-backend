@@ -154,6 +154,7 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 os.makedirs('outputvideo', exist_ok=True)
 os.makedirs(TEMP_DIR, exist_ok=True)
 os.makedirs(AUDIO_UPLOAD_FOLDER, exist_ok=True)
+os.makedirs('video_frames', exist_ok=True)
 
 ALLOWED_EXTENSIONS = {'mp4', 'avi', 'mov'}
 

@@ -108,7 +108,7 @@ def process_attendance(input_video_path, registered_faces_folder):
     for filename in os.listdir(output_frames_folder):
         file_path = os.path.join(output_frames_folder, filename)
         os.remove(file_path)
-    os.rmdir(output_frames_folder)
+    # os.rmdir(output_frames_folder)
 
     # Remove the input video file
     os.remove(input_video_path)
